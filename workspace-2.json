@@ -1,0 +1,80 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "none",
+    "current_border_width": 0,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 2142,
+       "width": 3840,
+       "x": 1080,
+       "y": 18
+    },
+    "name": "workspaces - ridehealth - Visual Studio Code",
+    "percent": 0.5,
+    "swallows": [
+       {
+       "class": "^Code$"
+       // "instance": "^code$",
+       // "title": "^workspaces\\ \\-\\ ridehealth\\ \\-\\ Visual\\ Studio\\ Code$",
+       // "transient_for": "^$",
+       // "window_role": "^browser\\-window$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    // splitv split container with 2 children
+    "border": "none",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "none",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 484,
+               "width": 804,
+               "x": 0,
+               "y": 0
+            },
+            "name": "alan@ricebox:~",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "class": "^URxvt$"
+               // "instance": "^urxvt$",
+               // "title": "^alan\\@ricebox\\:\\~$",
+               // "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "none",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 484,
+               "width": 804,
+               "x": 0,
+               "y": 0
+            },
+            "name": "alan@ricebox:~",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "class": "^URxvt$"
+               // "instance": "^urxvt$",
+               // "title": "^alan\\@ricebox\\:\\~$",
+               // "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
