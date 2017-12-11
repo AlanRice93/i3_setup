@@ -4,9 +4,9 @@ i3-msg "workspace $WORKSPACE; exec code ~/dev/projects/ridehealth"
 i3-msg "workspace $WORKSPACE; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd ~/dev/projects/ridehealth/web';"
 i3-msg "workspace $WORKSPACE; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd ~/dev/projects/ridehealth/elixir';"
 i3-msg "workspace $WORKSPACE; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd ~/dev/projects/ridehealth';"
-sleep 3
+sleep 6 
 
 WORKSPACE=3
 i3-msg "workspace $WORKSPACE; append_layout ~/.i3/workspace-3.json"
 i3-msg "workspace $WORKSPACE; exec discord; 
-i3-msg "worksspace $WORKSPACE; exec spotify; 
+i3-msg "workspace $WORKSPACE; exec spotify; 
