@@ -4,20 +4,20 @@
     "current_border_width": 0,
     "floating": "auto_off",
     "geometry": {
-       "height": 946,
-       "width": 1080,
-       "x": 0,
-       "y": 0
+       "height": 2125,
+       "width": 1280,
+       "x": 1080,
+       "y": 35
     },
-    "name": "Slack - Cage Free",
+    "name": "Google - Google Chrome",
     "percent": 0.5,
     "swallows": [
        {
-       "class": "^Slack$"
-       // "instance": "^slack$",
-       // "title": "^Slack\\ \\-\\ Cage\\ Free$",
+       // "class": "^Google\\-chrome$",
+       // "instance": "^google\\-chrome$",
+       // "title": "^Google\\ \\-\\ Google\\ Chrome$",
        // "transient_for": "^$",
-       // "window_role": "^browser\\-window$"
+       // "window_role": "^browser$"
        }
     ],
     "type": "con"
@@ -28,20 +28,20 @@
     "current_border_width": 0,
     "floating": "auto_off",
     "geometry": {
-       "height": 2132,
+       "height": 2127,
        "width": 1280,
-       "x": 1090,
-       "y": 38
+       "x": 3640,
+       "y": 32
     },
-    "name": "Inbox (6) - mail@alanrice.me - Alan Rice Mail - Google Chrome",
+    "name": "Slack - strange-loop",
     "percent": 0.5,
     "swallows": [
        {
-       "class": "^Google\\-chrome$"
-       // "instance": "^google\\-chrome$",
-       // "title": "^Inbox\\ \\(6\\)\\ \\-\\ mail\\@alanrice\\.me\\ \\-\\ Alan\\ Rice\\ Mail\\ \\-\\ Google\\ Chrome$",
+       // "class": "^Slack$",
+       // "instance": "^slack$",
+       // "title": "^Slack\\ \\-\\ strange\\-loop$",
        // "transient_for": "^$",
-       // "window_role": "^browser$"
+       // "window_role": "^browser\\-window$"
        }
     ],
     "type": "con"
