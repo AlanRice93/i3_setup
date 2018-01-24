@@ -1,34 +1,8 @@
-// vim:ts=4:sw=4:et
 {
-    "border": "none",
-    "current_border_width": 0,
-    "floating": "auto_off",
-    "geometry": {
-       "height": 2142,
-       "width": 3840,
-       "x": 1080,
-       "y": 18
-    },
-    "name": "workspaces - ridehealth - Visual Studio Code",
-    "percent": 0.5,
-    "swallows": [
-       {
-       "class": "^Code$"
-       // "instance": "^code$",
-       // "title": "^workspaces\\ \\-\\ ridehealth\\ \\-\\ Visual\\ Studio\\ Code$",
-       // "transient_for": "^$",
-       // "window_role": "^browser\\-window$"
-       }
-    ],
-    "type": "con"
-}
-
-{
-    // splitv split container with 2 children
     "border": "none",
     "floating": "auto_off",
     "layout": "splitv",
-    "percent": 0.5,
+    "percent": 0.45,
     "type": "con",
     "nodes": [
         {
@@ -36,19 +10,16 @@
             "current_border_width": 0,
             "floating": "auto_off",
             "geometry": {
-               "height": 484,
-               "width": 804,
-               "x": 0,
-               "y": 0
+               "height": 2125,
+               "width": 3840,
+               "x": 10,
+               "y": 45
             },
-            "name": "alan@ricebox:~",
-            "percent": 0.5,
+            "name": "New Tab - Google Chrome",
+            "percent": 0.333333333333333,
             "swallows": [
                {
-               "class": "^URxvt$"
-               // "instance": "^urxvt$",
-               // "title": "^alan\\@ricebox\\:\\~$",
-               // "transient_for": "^$"
+                "class": "^Google-chrome$"
                }
             ],
             "type": "con"
@@ -58,23 +29,59 @@
             "current_border_width": 0,
             "floating": "auto_off",
             "geometry": {
-               "height": 484,
-               "width": 804,
+               "height": 724,
+               "width": 1204,
                "x": 0,
                "y": 0
             },
-            "name": "alan@ricebox:~",
-            "percent": 0.5,
+            "name": "zsh",
+            "percent": 0.333333333333333,
             "swallows": [
                {
                "class": "^URxvt$"
-               // "instance": "^urxvt$",
-               // "title": "^alan\\@ricebox\\:\\~$",
-               // "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "none",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 724,
+               "width": 1204,
+               "x": 0,
+               "y": 0
+            },
+            "name": "zsh",
+            "percent": 0.333333333333333,
+            "swallows": [
+               {
+               "class": "^URxvt$"
                }
             ],
             "type": "con"
         }
     ]
+}
+
+{
+    "border": "none",
+    "current_border_width": 0,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1231,
+       "width": 1641,
+       "x": 1100,
+       "y": 465
+    },
+    "name": "settings.json - ridehealth - Code - OSS",
+    "percent": 0.55,
+    "swallows": [
+       {
+       "class": "^Code - OSS$"
+       }
+    ],
+    "type": "con"
 }
 

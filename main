@@ -1,4 +1,13 @@
 i3-msg "workspace 1; append_layout ~/.i3/workspace-1.json"
 i3-msg "workspace 1; exec google-chrome-stable";
+sleep 3
 i3-msg "workspace 1; exec slack";
+sleep 3
+i3-msg "workspace 1; exec discord"; 
 sleep 6 
+
+i3-msg "workspace 2; append_layout ~/.i3/workspace-2.json"
+i3-msg "workspace 2; exec google-chrome-stable"; 
+i3-msg "workspace 2; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd ~/dev/projects/ridehealth/web2';"
+i3-msg "workspace 2; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd ~/dev/projects/ridehealth/elixir';"
+i3-msg "workspace 2; exec code-oss dev/projects/ridehealth";
