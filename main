@@ -11,3 +11,6 @@ i3-msg "workspace 2; exec google-chrome-stable";
 i3-msg "workspace 2; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd ~/dev/projects/ridehealth/web';"
 i3-msg "workspace 2; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd ~/dev/projects/ridehealth/elixir';"
 i3-msg "workspace 2; exec code-oss dev/projects/ridehealth";
+sleep 6
+
+i3-msg "workspace 3; exec spotify"
