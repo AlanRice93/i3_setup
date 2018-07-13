@@ -1,8 +1,10 @@
+// vim:ts=4:sw=4:et
 {
+    // splitv split container with 3 children
     "border": "none",
     "floating": "auto_off",
     "layout": "splitv",
-    "percent": 0.45,
+    "percent": 0.35,
     "type": "con",
     "nodes": [
         {
@@ -10,55 +12,65 @@
             "current_border_width": 0,
             "floating": "auto_off",
             "geometry": {
-               "height": 2125,
-               "width": 3840,
-               "x": 10,
-               "y": 45
+                "height": 2125,
+                "width": 1280,
+                "x": 10,
+                "y": 45
             },
-            "name": "New Tab - Google Chrome",
+            "name": "Amazon.com Thanks You - Google Chrome",
             "percent": 0.333333333333333,
             "swallows": [
-               {
-                "class": "^Google-chrome$"
-               }
+                {
+                    "class": "^Google\\-chrome$"
+                }
             ],
             "type": "con"
+        },
+        {
+            // splith split container with 1 children
+            "border": "none",
+            "floating": "auto_off",
+            "layout": "splith",
+            "percent": 0.333333333333333,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "none",
+                    "current_border_width": 0,
+                    "floating": "auto_off",
+                    "geometry": {
+                        "height": 484,
+                        "width": 804,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "name": "zsh",
+                    "percent": 1,
+                    "swallows": [
+                        {
+                            "class": "^URxvt$"
+                        }
+                    ],
+                    "type": "con"
+                }
+            ]
         },
         {
             "border": "none",
             "current_border_width": 0,
             "floating": "auto_off",
             "geometry": {
-               "height": 724,
-               "width": 1204,
-               "x": 0,
-               "y": 0
+                "height": 484,
+                "width": 804,
+                "x": 0,
+                "y": 0
             },
             "name": "zsh",
             "percent": 0.333333333333333,
             "swallows": [
-               {
-               "class": "^URxvt$"
-               }
-            ],
-            "type": "con"
-        },
-        {
-            "border": "none",
-            "current_border_width": 0,
-            "floating": "auto_off",
-            "geometry": {
-               "height": 724,
-               "width": 1204,
-               "x": 0,
-               "y": 0
-            },
-            "name": "zsh",
-            "percent": 0.333333333333333,
-            "swallows": [
-               {
-               "class": "^URxvt$"
-               }
+                {
+                    "class": "^URxvt$",
+                }
             ],
             "type": "con"
         }
@@ -70,18 +82,17 @@
     "current_border_width": 0,
     "floating": "auto_off",
     "geometry": {
-       "height": 1231,
-       "width": 1641,
-       "x": 1100,
-       "y": 465
+        "height": 2129,
+        "width": 960,
+        "x": 2880,
+        "y": 33
     },
-    "name": "settings.json - ridehealth - Code - OSS",
-    "percent": 0.55,
+    "name": "distance_check.ex - ridehealth - Code - OSS",
+    "percent": 0.65,
     "swallows": [
-       {
-       "class": "^Code - OSS$"
-       }
+        {
+            "class": "^Code\\ \\-\\ OSS$",
+        }
     ],
     "type": "con"
 }
-
